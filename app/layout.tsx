@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { FONT_NOTOSANSKR } from "@/public/assets/fonts/index";
 import { Toaster } from "@/components/ui/toast/toaster";
-/** 컴포넌트 */
+/** UI 컴포넌트 */
 import { AsideSection } from "@/components/common";
 /** 스타일 */
 import "@/public/styles/globals.css";

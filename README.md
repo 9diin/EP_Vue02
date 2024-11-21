@@ -31,6 +31,7 @@
     -   `npx shadcn@latest add separator`
 
 -   SASS/SCSS 설치: `npm i sass`
+-   React 마크다운 에디터 설치: `npm i @uiw/react-markdown-editor`
 
 2. 프로젝트 구조
 
@@ -46,4 +47,12 @@
 
 1. 프로젝트 생성 및 프로젝트 환경설정 (feat. Shadcn UI로 베이스 UI 컴포넌트 설치)
 
--   브랜치: `#1-install` branch를 참고해주세요.
+    - `#1-install` branch를 참고해주세요.
+
+2. Init Page(최초 진입 페이지) UI 개발하기
+
+    - `#2-init-page-ui` branch를 참고해주세요.
+
+3. Board Unique Page By Id(Board ID에 따른 동적 라우팅 페이지) UI 개발하기
+
+    - `#3-board-page-ui` branch를 참고해주세요.
