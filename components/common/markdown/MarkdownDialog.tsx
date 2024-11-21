@@ -1,3 +1,5 @@
+"use client";
+
 import { Button, Checkbox, Dialog, DialogClose, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger, LabelDatePicker, Separator } from "@/components/ui";
 import MarkdownEditor from "@uiw/react-markdown-editor";
 
