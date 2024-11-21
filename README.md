@@ -14,3 +14,10 @@
 
 -   npx shadcn@latest init
 -   전반적인 폰트는 Google Font의 `Noto Sans KR` 폰트를 사용했습니다. (feat. app > layout.tsx 파일 참조)
+
+2. 최초 프로젝트 구조
+
+-   App Router 기반 페이지 라우팅이 이루어지니 만큼 app 폴더 하위에는 페이지에 관련된 파일이 위치합니다.
+-   `public` 폴더를 따로 생성하여 assets와 styles 폴더를 생성하였습니다.
+    -   assets: 정적 자원을 관리합니다. (예: 이미지, 아이콘, 폰트 등)
+    -   styles: CSS 파일을 관리합니다. (해당 프로젝트는 교육과정이니 만큼 Tailwind CSS와 SCSS를 섞어 진행합니다.)
