@@ -30,6 +30,8 @@
     -   `npx shadcn@latest add toast`
     -   `npx shadcn@latest add separator`
 
+-   SASS/SCSS 설치: `npm i sass`
+
 2. 프로젝트 구조
 
 -   App Router 기반 페이지 라우팅이 이루어지니 만큼 `app` 폴더 하위에는 페이지에 관련된 파일이 위치합니다.
