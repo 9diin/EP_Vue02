@@ -40,18 +40,18 @@ function BoardUniquePage() {
                 </div>
             </div>
             <div className={styles.body}>
-                <div className={styles.body__noData}>
-                    {/* Add New Board 버튼 클릭으로 인한 Board 데이터가 없을 경우 */}
+                {/* Add New Board 버튼 클릭으로 인한 Board 데이터가 없을 경우 */}
+                {/* <div className={styles.body__noData}>
                     <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">There is no board yet.</h3>
                     <small className="text-sm font-medium leading-none text-[#6D6D6D] mt-3 mb-7">Click the button and start flashing!</small>
                     <button>
                         <Image src="/assets/images/button.svg" width={74} height={74} alt="rounded-button" />
                     </button>
-                </div>
-                {/* Add New Board 버튼 클릭으로 인한 Board 데이터가 있을 경우 */}
-                {/* <div className={styles.body__isData}>
-                    <BoardCard />;
                 </div> */}
+                {/* Add New Board 버튼 클릭으로 인한 Board 데이터가 있을 경우 */}
+                <div className={styles.body__isData}>
+                    <BoardCard />
+                </div>
             </div>
         </>
     );
