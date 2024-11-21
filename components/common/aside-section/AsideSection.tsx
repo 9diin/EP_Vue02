@@ -69,10 +69,7 @@ function AsideSection() {
                             );
                         })
                     ) : (
-                        <li className="bg-[#F5F5F5] min-h-9 flex items-center gap-2 py-2 px-[10px] rounded-sm text-sm cursor-pointer" onClick={() => router.push(`/board/${task.id}`)}>
-                            <div className="h-[6px] w-[6px] rounded-full bg-neutral-700"></div>
-                            등록된 제목이 없습니다.
-                        </li>
+                        <li className="bg-[#F5F5F5] text-neutral-400 w-full flex items-center justify-center min-h-9  gap-2 py-2 px-[10px] rounded-sm text-sm cursor-pointer">생성된 TASK가 없습니다.</li>
                     )}
                 </ul>
             </div>
