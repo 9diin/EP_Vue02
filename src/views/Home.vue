@@ -1,5 +1,5 @@
 <template>
-    <RouterView />
+    <div>Home.vue</div>
 </template>
 
 <script setup lang="ts"></script>

@@ -25,13 +25,15 @@
 -   Update vite.config.ts
     -   (so you can import "path" without error) `npm i -D @types/node`
 -   Run the shadcn-vue init command to setup your project
-    - `npx shadcn-vue@latest init`
+    -   `npx shadcn-vue@latest init`
 
 <br />
 
 ![터미널 설치 이미지](src/assets/images/install-01.png) <br />
 
 ![터미널 설치 이미지](src/assets/images/install-02.png)
+
+3. Vue Router 설치: `npm install vue-router@4`
 
 ---
 
