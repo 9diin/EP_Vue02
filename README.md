@@ -24,7 +24,8 @@
     -   `npm install -D tailwindcss autoprefixer postcss`
 -   Update vite.config.ts
     -   (so you can import "path" without error) `npm i -D @types/node`
--   Run the shadcn-vue init command to setup your project: - `npx shadcn-vue@latest init`
+-   Run the shadcn-vue init command to setup your project
+   - `npx shadcn-vue@latest init`
 
 <br />
 
