@@ -7,8 +7,9 @@
                     <WidgetCurrentWeather />
                     <WidgetHourlyWeather />
                 </div>
-                <div className="w-full flex items-center gap-6">
+                <div className="w-full flex items-start gap-6">
                     <WidgetHightlightWeather />
+                    <WidgetOneWeekWeather />
                 </div>
             </div>
         </div>
@@ -16,7 +17,7 @@
 </template>
 
 <script setup lang="ts">
-import { CommonHeader, WidgetCurrentWeather, WidgetHourlyWeather, WidgetHightlightWeather } from "@/components/common";
+import { CommonHeader, WidgetCurrentWeather, WidgetHourlyWeather, WidgetHightlightWeather, WidgetOneWeekWeather } from "@/components/common";
 </script>
 
 <style lang="scss" scoped></style>
