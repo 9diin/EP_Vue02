@@ -1,7 +1,13 @@
 <template>
-    <div>Home.vue</div>
+    <div class="page">
+        <div class="page__container">
+            <CommonHeader />
+        </div>
+    </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { CommonHeader } from "@/components/common";
+</script>
 
-<style scoped></style>
+<style lang="scss" scoped></style>
