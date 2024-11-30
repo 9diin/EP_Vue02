@@ -3,7 +3,7 @@
         <div class="header__start">
             <div class="header__start__logo">
                 <img src="/assets/images/logo.svg" alt="" />
-                <h3 className="poppins-bold scroll-m-20 text-2xl font-semibold tracking-tight text-white">Weather.io</h3>
+                <h3 className="poppins-bold scroll-m-20 text-2xl font-semibold tracking-tight text-neutral-700">Weather.io</h3>
             </div>
             <div class="flex-1">
                 <SearchBar />
