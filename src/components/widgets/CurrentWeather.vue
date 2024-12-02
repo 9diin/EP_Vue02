@@ -11,7 +11,7 @@
                         <img src="/assets/images/logo.svg" alt="" class="h-16 w-16" />
                         <div class="w-full flex items-start gap-1">
                             <span class="poppins-bold scroll-m-20 text-6xl font-extrabold tracking-tight">30</span>
-                            <span class="text-3xl font-extrabold mt-1">&#8451;</span>
+                            <span class="text-3xl font-extrabold">&#8451;</span>
                         </div>
                     </div>
                     <Separator class="mt-2 mb-3" />
@@ -33,7 +33,6 @@
 
 <script setup lang="ts">
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
+import { Separator } from "@/components/ui/separator";
 import { CalendarDays, MapPinned } from "lucide-vue-next";
 </script>
-
-<style scoped></style>
