@@ -1,5 +1,6 @@
 <template>
-    <div></div>
+    <!-- 페이지 라우터 -->
+    <RouterView />
 </template>
 
 <script setup lang="ts"></script>

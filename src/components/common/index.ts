@@ -1,0 +1,5 @@
+export { default as CommonHeader } from "./header/Header.vue";
+export { default as WidgetCurrentWeather } from "./widgets/CurrentWeather.vue";
+export { default as WidgetHourlyWeather } from "./widgets/HourlyWeather.vue";
+export { default as WidgetHightlightWeather } from "./widgets/HighlightWeather.vue";
+export { default as WidgetOneWeekWeather } from "./widgets/OneWeekWeather.vue";
