@@ -6,6 +6,7 @@
         </CardHeader>
         <CardContent class="flex flex-col gap-5">
             <div class="flex items-center gap-5">
+                <!-- 해양 및 조수 데이터 위젯 -->
                 <Card class="w-full bg-neutral-100">
                     <CardHeader>
                         <CardDescription class="font-semibold text-neutral-700">
@@ -35,6 +36,7 @@
                         </div>
                     </CardContent>
                 </Card>
+                <!-- 일출/일몰 위젯 -->
                 <Card class="w-full h-fit bg-neutral-50">
                     <CardHeader>
                         <CardDescription class="font-semibold text-neutral-700">
@@ -129,5 +131,3 @@
 <script setup lang="ts">
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 </script>
-
-<style scoped></style>

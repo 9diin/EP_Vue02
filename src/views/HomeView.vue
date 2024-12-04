@@ -7,9 +7,12 @@
                 <!-- 상단 위젯 영역 -->
                 <div class="w-full flex items-flex justify-start gap-6">
                     <WidgetCurrentWeather />
+                    <WidgetHourlyWeather />
                 </div>
                 <!-- 하단 위젯 영역 -->
-                <div class="w-full flex items-start gap-6"></div>
+                <div class="w-full flex items-start gap-6">
+                    <WidgetHighlightWeather />
+                </div>
             </div>
         </div>
     </div>
@@ -17,7 +20,7 @@
 
 <script setup lang="ts">
 import { CommonHeader } from "@/components/common";
-import { WidgetCurrentWeather } from "@/components/widgets";
+import { WidgetCurrentWeather, WidgetHourlyWeather, WidgetHighlightWeather } from "@/components/widgets";
 </script>
 
 <style lang="scss" scoped></style>
