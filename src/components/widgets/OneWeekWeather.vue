@@ -5,7 +5,7 @@
             <CardDescription>이번주 날씨를 조회하고 있습니다.</CardDescription>
         </CardHeader>
         <CardContent class="flex flex-col w-full gap-1">
-            <div class="w-full flex items-center gap-7 bg-neutral-50 py-0 px-3 rounded-md" key="{item.date}">
+            <div class="w-full flex items-center gap-7 bg-neutral-50 py-0 px-3 rounded-md">
                 <div class="w-fit h-10 flex items-center gap-2">
                     <img src="/assets/icons/1000d.svg" alt="" class="h-7 w-7" />
                     <div class="flex items-center gap-1 w-20">
@@ -24,7 +24,7 @@
                     <small class="text-sm leading-none">토요일</small>
                 </div>
             </div>
-            <div class="w-full flex items-center gap-7 bg-neutral-50 py-0 px-3 rounded-md" key="{item.date}">
+            <div class="w-full flex items-center gap-7 bg-neutral-50 py-0 px-3 rounded-md">
                 <div class="w-fit h-10 flex items-center gap-2">
                     <img src="/assets/icons/1000d.svg" alt="" class="h-7 w-7" />
                     <div class="flex items-center gap-1 w-20">
@@ -43,7 +43,7 @@
                     <small class="text-sm leading-none">토요일</small>
                 </div>
             </div>
-            <div class="w-full flex items-center gap-7 bg-neutral-50 py-0 px-3 rounded-md" key="{item.date}">
+            <div class="w-full flex items-center gap-7 bg-neutral-50 py-0 px-3 rounded-md">
                 <div class="w-fit h-10 flex items-center gap-2">
                     <img src="/assets/icons/1000d.svg" alt="" class="h-7 w-7" />
                     <div class="flex items-center gap-1 w-20">
@@ -62,7 +62,7 @@
                     <small class="text-sm leading-none">토요일</small>
                 </div>
             </div>
-            <div class="w-full flex items-center gap-7 bg-neutral-50 py-0 px-3 rounded-md" key="{item.date}">
+            <div class="w-full flex items-center gap-7 bg-neutral-50 py-0 px-3 rounded-md">
                 <div class="w-fit h-10 flex items-center gap-2">
                     <img src="/assets/icons/1000d.svg" alt="" class="h-7 w-7" />
                     <div class="flex items-center gap-1 w-20">
@@ -81,7 +81,7 @@
                     <small class="text-sm leading-none">토요일</small>
                 </div>
             </div>
-            <div class="w-full flex items-center gap-7 bg-neutral-50 py-0 px-3 rounded-md" key="{item.date}">
+            <div class="w-full flex items-center gap-7 bg-neutral-50 py-0 px-3 rounded-md">
                 <div class="w-fit h-10 flex items-center gap-2">
                     <img src="/assets/icons/1000d.svg" alt="" class="h-7 w-7" />
                     <div class="flex items-center gap-1 w-20">
@@ -100,7 +100,7 @@
                     <small class="text-sm leading-none">토요일</small>
                 </div>
             </div>
-            <div class="w-full flex items-center gap-7 bg-neutral-50 py-0 px-3 rounded-md" key="{item.date}">
+            <div class="w-full flex items-center gap-7 bg-neutral-50 py-0 px-3 rounded-md">
                 <div class="w-fit h-10 flex items-center gap-2">
                     <img src="/assets/icons/1000d.svg" alt="" class="h-7 w-7" />
                     <div class="flex items-center gap-1 w-20">
@@ -119,7 +119,7 @@
                     <small class="text-sm leading-none">토요일</small>
                 </div>
             </div>
-            <div class="w-full flex items-center gap-7 bg-neutral-50 py-0 px-3 rounded-md" key="{item.date}">
+            <div class="w-full flex items-center gap-7 bg-neutral-50 py-0 px-3 rounded-md">
                 <div class="w-fit h-10 flex items-center gap-2">
                     <img src="/assets/icons/1000d.svg" alt="" class="h-7 w-7" />
                     <div class="flex items-center gap-1 w-20">
@@ -145,5 +145,3 @@
 <script setup lang="ts">
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 </script>
-
-<style scoped></style>
