@@ -32,8 +32,8 @@ const WEATHER_API_KEY = "56442fada1144d12abf64743241411";
 
 const cityName = ref<string>("seoul");
 const dataOfCW = reactive({ temp: 0, country: "", cityName: "", localtime: "", iconCode: 0, iconUrl: "" });
-const dataOfHW = ref([]); // WidgetHourlyWeather 컴포넌트에서 사용될 데이터
-const dataOfHLW = reactive({ sunrise: "", sunset: "", moonrise: "", moonset: "", humidity: 0, pressure: 0, visibility: 0, feelsLike: 0 }); // WidgetHighlistWeather 컴포넌트에서 사용될 데이터
+const dataOfHW = ref([]);
+const dataOfHLW = reactive({ sunrise: "", sunset: "", moonrise: "", moonset: "", humidity: 0, pressure: 0, visibility: 0, feelsLike: 0 });
 
 const fetchApi = async () => {
     try {
