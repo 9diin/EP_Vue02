@@ -11,11 +11,11 @@
                     <div class="flex items-center gap-1 w-20">
                         <div class="w-full h-full flex items-start gap-[2px]">
                             <span class="poppins-medium scroll-m-20 text-lg font-semibold tracking-tight text-red-600">25</span>
-                            <span class="text-xs font-normal mt-[3px]">&#8451;</span>
+                            <span class="text-xs font-normal mt-1">&#8451;</span>
                         </div>
                         <div class="w-full h-full flex items-start gap-[2px]">
                             <span class="poppins-medium scroll-m-20 text-lg font-semibold tracking-tight text-sky-600">10</span>
-                            <span class="text-xs font-normal mt-[3px]">&#8451;</span>
+                            <span class="text-xs font-normal mt-1">&#8451;</span>
                         </div>
                     </div>
                 </div>
