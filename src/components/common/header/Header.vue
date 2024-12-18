@@ -6,7 +6,7 @@
                 <h3 class="poppins-bold scroll-m-20 text-2xl font-semibold tracking-tight text-neutral-700">Weather.io</h3>
             </div>
             <div class="flex-1">
-                <SearchBar />
+                <SearchBar @update:model-value="changeSearchValue" @keydown.enter="handleSearch" />
             </div>
         </div>
     </header>
@@ -14,6 +14,21 @@
 
 <script setup lang="ts">
 import SearchBar from "@/components/ui/search-bar/SearchBar.vue";
+import { useStore } from "@/store";
+import { ref } from "vue";
+
+const store = useStore();
+const searchValue = ref<string>("");
+
+const changeSearchValue = (event: string | number) => {
+    searchValue.value = String(event);
+};
+const handleSearch = () => {
+    if (searchValue.value === "") store.cityName = "seoul";
+    else store.cityName = searchValue.value;
+
+    store.fetchApi();
+};
 </script>
 
 <style lang="scss" scoped>
