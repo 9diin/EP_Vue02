@@ -29,6 +29,7 @@ export const useStore = defineStore("main", {
             try {
                 const res = await axios.get(`${WEATHER_BASE_URL}/forecast.json?q=${this.cityName}&days=7&key=${WEATHER_API_KEY}`);
                 const { current, location, forecast } = res.data;
+                console.log(res);
 
                 /** WidgetCurrentWeather 컴포넌트에서 필요한 데이터 */
                 this.dataOfCW.temp = current.temp_c;
