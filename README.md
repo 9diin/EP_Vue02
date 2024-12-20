@@ -29,9 +29,9 @@
 
 <br />
 
-![터미널 설치 이미지](src/assets/images/install-01.png) <br />
+![터미널 설치 이미지](public/assets/images/install-01.png) <br />
 
-![터미널 설치 이미지](src/assets/images/install-02.png)
+![터미널 설치 이미지](public/assets/images/install-02.png)
 
 3. Vue Router 설치: `npm install vue-router@4`
 4. SASS/SCSS 설치: `npm install -D sass-embedded`
